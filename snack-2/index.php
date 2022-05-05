@@ -21,15 +21,12 @@
 </head>
 <body>
     <p>
-        <?php 
-    
+        <?php     
             if(strlen($name) > 3 && strpos($mail, '@') == true && strpos($mail, '.') == true && is_int($age) == true && $age !== 0){
                echo $si;
             }else{
                 echo $no;
-            }
-           
-            
+            }           
         ?>
     </p>
     
